@@ -3,10 +3,15 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import { Row, Col, Button, Icon } from 'iview'
 import 'iview/dist/styles/iview.css'
+import './css/public.css'
 
 Vue.config.productionTip = false
-
+Vue.component('Row', Row)
+Vue.component('Col', Col)
+Vue.component('Button', Button)
+Vue.component('Icon', Icon)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

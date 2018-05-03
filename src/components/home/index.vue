@@ -3,11 +3,15 @@
 </style>
 
 <template>
-  <Header></Header>
+  <div>
+    <Header></Header>
+    <Carousel></Carousel>
+  </div>
 </template>
 
 <script>
 import Header from './Header'
+import Carousel from './Carousel'
 export default {
   name: 'index',
   data: function () {
@@ -15,7 +19,8 @@ export default {
     }
   },
   components: {
-    Header
+    Header,
+    Carousel
   }
 }
 </script>
