@@ -11,3 +11,6 @@ button {
   box-shadow: none;
   cursor: pointer;
 }
+.ivu-carousel-list {
+  overflow: initial;
+}

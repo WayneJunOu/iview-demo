@@ -86,6 +86,7 @@ export default {
   cursor: pointer;
 }
 .header-container-list:hover {
+  height: 90px;
   color: #fff;
   background: #00A3FE;
 }
